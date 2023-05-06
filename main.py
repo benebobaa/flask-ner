@@ -2,7 +2,7 @@ from flask import Flask
 import tensorflow as tf
 import pandas as pd
 from flask_socketio import SocketIO, emit
-# from controller.predict_controller import predict_controller
+
 
 app = Flask(__name__)
 socketio = SocketIO(app, cors_allowed_origins='*')
