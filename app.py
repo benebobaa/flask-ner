@@ -39,6 +39,6 @@ def handle_client_event(data):
     emit('server_response', 'Hello from the server', broadcast=True)
     
     
-from controller import *
+from controller import predict_controller
 
 
